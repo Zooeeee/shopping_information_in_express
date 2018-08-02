@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Test</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+  
+        <script src = "./index.js"></script>
+    </head>
+    <body>
+        <button onclick = "get_all()">获取全部商品</button>
+        <br/>
+        <input type = "text" id="get_one_id" placeholder="商品id"/>
+        <button onclick = "get_one()">获取这个商品</button>
+        <br/>
+        <input type = "text" id="add_one_id" placeholder="想增加商品的名称"/>  
+        <button onclick="add_one()">增加一个商品</button>
+        <br/>
+        <input type = "text" id="delete_one_id" placeholder="商品id"/>
+        <button onclick = "delete_one()">删除这个商品</button>
+        <br/>
+        <input type = "text" id="put_one_id" placeholder="商品id"/>
+        <input type = "text" id="put_one_name" placeholder="新的name"/>
+        <button onclick = "put_one()">修改这个商品name</button>
+        
+    </body>
+</html>
